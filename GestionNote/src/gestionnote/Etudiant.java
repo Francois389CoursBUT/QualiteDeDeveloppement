@@ -1,32 +1,53 @@
 package gestionnote;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Etudiant extends Utilisateur {
-     List<Note> note = new ArrayList<Note> ();
-
-    public Etudiant(String nom, String prenom, String motDePasse, String identifiant) {
-        super(nom, prenom, motDePasse, identifiant);
-    }
+public class Etudiant extends Utilisateur implements Serializable{
     
-    /**
-     * note(matiere): Recherche et en renvoie la note de l'étudiant dans la matière passée en paramètre. Renvoie -1 si l'étudiant n'a pas de note dans cette matière ou n'est pas inscrit à cette matière.
-     */
-    float note(String matiere) {
-        return 0.0f; //STUB
-    }
+  // On utilise une liste et pas un tableau car les notes seront ajoutées dynamiquement
+  List<Note> notes = new ArrayList<Note> ();
+   
+  Etudiant(String nom, String prenom, String identifiant, String motDePasse) {
+    super(nom, prenom, identifiant, motDePasse);
+  }
 
-    /**
-     * modifierNote(matiere, nouvelleNote) : Modifie la note de l'étudiant dans la matière indiquée en paramètre avec la valeur indiquée en paramètre. Ne fait rien si l'étudiant n'est pas inscrit à cette matière.
-     */
-    void modifierNote(String matiere, float nouvelleNote) {
+  /**
+   * Recherche et en renvoie la note de l'étudiant dans la matière passée en paramètre.
+   * Renvoie -1 si l'étudiant n'a pas de note dans cette matière ou n'est pas inscrit à cette matière.
+   */   
+  float note(String matiere) {
+    for(Note note: notes) {
+      if (note.matiere.intitule.equals(matiere))
+        return note.valeur;
     }
+    return -1;
+  }
 
-    /**
-     * notesToString(): Renvoyer une chaîne indiquant les notes de l'étudiant.
-     */
-    String notesToString() {
-        return ""; //STUB
+  /**
+   * Modifie la note de l'étudiant dans la matière indiquée en paramètre avec la valeur
+   * indiquée en paramètre. Ne fait rien si l'étudiant n'est pas inscrit à cette matière.
+   */    
+  void modifierNote(String matiere, float nouvelleNote) {
+    for(Note note: notes) {
+      if (note.matiere.intitule.equals(matiere))
+        note.valeur = nouvelleNote;
     }
+  }
+
+  /**
+   * Renvoyer une chaîne indiquant les notes de l'étudiant.
+   */ 
+  String notesToString() {
+    String result="--- Voici l'ensemble des notes de "
+            + nom + " " + prenom +" :\n";
+    for(Note note: notes) {
+        result += note.matiere.intitule+ " : ";
+        if (note.valeur == -1) result += "\n";
+        else result += note.valeur+"\n";
+    }
+    return result;
+  }
+
 }

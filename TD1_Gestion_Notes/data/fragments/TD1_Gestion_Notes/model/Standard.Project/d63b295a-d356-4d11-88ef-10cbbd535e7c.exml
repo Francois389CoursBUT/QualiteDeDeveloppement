@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TD1_Gestion_Notes" version="4">
+  <OBJECT>
+    <ID name="TD1_Gestion_Notes" mc="Standard.Project" uid="d63b295a-d356-4d11-88ef-10cbbd535e7c"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[TD1_Gestion_Notes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="td1_gestion_notes" mc="Standard.Package" uid="8b7a0c53-932f-4ec5-a9f1-a27f53cbf8ea"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="TD1_Gestion_Notes" mc="Infrastructure.DiagramSet" uid="c1871a48-448c-47db-9a81-b033dd144128"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

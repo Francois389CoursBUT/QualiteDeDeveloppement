@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TP2_GestionNotesModelio" version="4">
+  <OBJECT>
+    <ID name="TP2_GestionNotesModelio" mc="Infrastructure.DiagramSet" uid="b60df19b-5f9b-42ae-a1b8-80767336508d"/>
+    <PID name="TP2_GestionNotesModelio" mc="Standard.Project" uid="33a07555-b5fa-4ad3-bda6-3a2f64100c12"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[TP2_GestionNotesModelio]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

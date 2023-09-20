@@ -1,13 +1,18 @@
 package gestionnote;
 
-public class Note {
+import java.io.Serializable;
+
+public class Note implements Serializable{
     
-    private float valeur;
-    private Matiere matiere;
-     
-    public Note(float valeur, Matiere matiere) {
-        this.valeur = valeur;
-        this.matiere = matiere;
-    }
+  float valeur;   
+  Matiere matiere;
+
+  /**
+   * valeur : initialisée à -1 signifiant l'absence de note.
+   */  
+  Note(Matiere matiere) {
+    valeur = -1;
+    this.matiere = matiere;
+  }
 
 }

@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TP1_Modelio" version="4">
+  <OBJECT>
+    <ID name="TP1_Modelio" mc="Standard.Project" uid="08e50043-3872-4a6f-88c7-57f56c05c432"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[TP1_Modelio]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="tp1_modelio" mc="Standard.Package" uid="50236b5f-a7bc-4c60-9f2d-36174654dd0e"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="TP1_Modelio" mc="Infrastructure.DiagramSet" uid="ce5e65d4-3235-4f5b-bf8b-50ee84e35b62"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

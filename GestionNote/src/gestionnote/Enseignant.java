@@ -1,15 +1,17 @@
 package gestionnote;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.io.Serializable;
 
-public class Enseignant extends Utilisateur {
-     List<Matiere> matiereEnseignees = new ArrayList<Matiere> ();
-
-    public Enseignant(String nom, String prenom, String motDePasse, String identifiant) {
-        super(nom, prenom, motDePasse, identifiant);
-    }
+public class Enseignant extends Utilisateur implements Serializable{
     
-    void setMatieresEnseignees(List<Matiere> matieres) {
+  Matiere[] matieresEnseignees;
+
+  Enseignant(String nom, String prenom, String identifiant, String motDePasse) {
+    super(nom, prenom, identifiant, motDePasse);
+  }
+
+    public void setMatieresEnseignees(Matiere... matieresEnseignees) {
+        this.matieresEnseignees = matieresEnseignees;
     }
+
 }
