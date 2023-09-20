@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="mod_expression" version="4">
+  <OBJECT>
+    <ID name="mod_expression" mc="Standard.Package" uid="87caccb5-df25-454b-bb67-c39a94f72810"/>
+    <PID name="Mod_Expression" mc="Standard.Project" uid="537025dd-ff24-44ae-84fb-65e59a48b1f3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[mod_expression]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AnalyseurExpression" mc="Standard.Class" uid="81ed2f1d-ea4d-4b71-9244-484ab548623d"/>
+        <COMPID name="AnalyseurException" mc="Standard.Class" uid="42b12396-7549-4e5e-b7b9-57c661f23652"/>
+        <COMPID name="Exception" mc="Standard.Class" uid="52bf5e72-95d8-4e94-af81-c347c258e47b"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de classe mod_expression" mc="Standard.ClassDiagram" uid="cbc96bad-1552-4d49-8d47-7a8e76996dbd"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
