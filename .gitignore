@@ -34,3 +34,5 @@ build/
 /Convertisseur/nbproject/private/
 /Convertisseur/dist/
 *.xml
+/JavaFXConvertisseur/nbproject/private/
+/JavaFXConvertisseur/dist/
