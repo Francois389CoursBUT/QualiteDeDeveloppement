@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EvaluateurExpression" version="4">
+  <OBJECT>
+    <ID name="EvaluateurExpression" mc="Infrastructure.DiagramSet" uid="13f33ee8-75b3-4321-8f04-24798a905308"/>
+    <PID name="EvaluateurExpression" mc="Standard.Project" uid="6dcc8cc0-3300-428e-b318-deee2500706d"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[EvaluateurExpression]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

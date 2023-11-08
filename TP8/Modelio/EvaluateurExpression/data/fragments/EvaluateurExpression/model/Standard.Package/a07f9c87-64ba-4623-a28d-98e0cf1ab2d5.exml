@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="evaluateurexpression" version="4">
+  <OBJECT>
+    <ID name="evaluateurexpression" mc="Standard.Package" uid="a07f9c87-64ba-4623-a28d-98e0cf1ab2d5"/>
+    <PID name="EvaluateurExpression" mc="Standard.Project" uid="6dcc8cc0-3300-428e-b318-deee2500706d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[evaluateurexpression]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ExpressionMalFormee" mc="Standard.Class" uid="74e8ff34-475d-45c8-8c80-ac3d9fa3a24d"/>
+        <COMPID name="Exception" mc="Standard.Class" uid="a7da87b0-2e9c-43ca-abb2-06605b201971"/>
+        <COMPID name="FinTestExpression" mc="Standard.Class" uid="8a88d2d7-d726-4e99-aa93-8f4ce10e3a55"/>
+        <COMPID name="TexteExpression" mc="Standard.Class" uid="ae19ba3b-40e9-4a12-8005-93085209ef41"/>
+        <COMPID name="ExpressionEntreNaire" mc="Standard.Class" uid="f238ae78-2bdc-4cdc-9195-b86cef9354e6"/>
+        <COMPID name="ConstanteEntiere" mc="Standard.Class" uid="1f3921e7-869e-4ddb-b862-d688bec27c5d"/>
+        <COMPID name="Expression" mc="Standard.Interface" uid="92f92351-6ac4-40c2-910c-e231dac1f3b1"/>
+        <COMPID name="Evaluateur" mc="Standard.Class" uid="634cb76f-8f38-4d36-84b7-42f6e2c3e128"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de classe evaluateurexpression" mc="Standard.ClassDiagram" uid="ef91aec7-3c80-4679-bd3a-4b638760bb1e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

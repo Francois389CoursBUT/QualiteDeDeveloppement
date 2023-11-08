@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Evaluateur" version="4">
+  <OBJECT>
+    <ID name="Evaluateur" mc="Standard.Project" uid="8375dfa0-8a72-488f-af13-55785a82d0fd"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[Evaluateur]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="evaluateur" mc="Standard.Package" uid="09e2edf7-58d5-4647-a70b-78f80592ed39"/>
+        <COMPID name="tp8_expression" mc="Standard.Package" uid="f5accaa5-6921-484e-80ab-7e4707d067ab"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="Evaluateur" mc="Infrastructure.DiagramSet" uid="0082c4eb-b578-4152-b5b1-ad237f6a58be"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

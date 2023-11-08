@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="381.0" prefWidth="467.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ihms.IhmEnseignantController">
+    <children>
+        <Label layoutX="85.0" layoutY="68.0" text="Matiere" />
+        <Label layoutX="84.0" layoutY="117.0" text="Etudiant" />
+        <ComboBox fx:id="comboMatiere" layoutX="244.0" layoutY="64.0" onAction="#comboMatiereAction" prefWidth="150.0" promptText="Choisir une matière" />
+        <ComboBox fx:id="comboEtudiant" layoutX="244.0" layoutY="113.0" onAction="#comboEtudiantAction" prefWidth="150.0" promptText="Choisir un étudiant" />
+        <Button fx:id="btnModifierNote" layoutX="61.0" layoutY="301.0" mnemonicParsing="false" onAction="#btnModifierNoteAction" prefHeight="39.0" prefWidth="133.0" style="-fx-background-color: blue;" text="Modifier note" textFill="WHITE" />
+        <Button fx:id="btnQuitter" layoutX="278.0" layoutY="301.0" mnemonicParsing="false" onAction="#btnQuitter" prefHeight="39.0" prefWidth="133.0" style="-fx-background-color: red;" text="Quitter" textFill="WHITE" />
+        <Label layoutX="105.0" layoutY="202.0" text="Note" />
+        <TextField fx:id="txtNote" layoutX="194.0" layoutY="198.0" />
+        <Text layoutX="187.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Etudiant" wrappingWidth="113.86328125">
+            <font>
+                <Font size="29.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>
